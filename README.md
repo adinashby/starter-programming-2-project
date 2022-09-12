@@ -10,16 +10,14 @@ This is an individual project that has three parts: an analysis and design docum
 
 **Project Requirement**
 
-• Pseudocode for the main methods
-• Completed UML Class Diagrams for all classes and interfaces with their relationship
-• The implementation of all required features (the source code)
-• A snapshot of output demonstrating the functionality of the application whether correct
-or incorrect, complete, or incomplete, included in the README on GitHub.
-• Graphic elements to display and input data
-• Unit test to test all functional methods
-• Driver class to test all functional methods in the project
-• The output should be clear and well-presented containing messages to reflect the code
-testing.
+• Pseudocode for the main methods  
+• Completed UML Class Diagrams for all classes and interfaces with their relationship  
+• The implementation of all required features (the source code)  
+• A snapshot of output demonstrating the functionality of the application whether correct or incorrect, complete, or incomplete, included in the README on GitHub.  
+• Graphic elements to display and input data  
+• Unit test to test all functional methods  
+• Driver class to test all functional methods in the project  
+• The output should be clear and well-presented containing messages to reflect the code testing.  
 • A snapshot showing which tests have passed, included in the README on GitHub.
 
 **Project Objectives**
@@ -45,9 +43,9 @@ In your model, you will have department objects (representing departments). A de
 3. The class Teacher has two instance variables: specialty and degree and some other fields for its subclasses (part-time or full-time teachers)
 4. The class Staff has also two instance variables: duty and workload
 5. Implement an interface PayRoll that contains ComputePayRoll() method to be implemented as follows:
-   a. For each full-time teacher, the salary is computed as (32 \* degreeRate \* 2) \* 0.85, where degreeRate is 112, 82, 42 for PhD, Master, and Bachelor, respectively.
-   b. For each part-time teacher, the salary is computed as (hoursWorked \* degreeRate \* 2) \* 0.76, where degreeRate is 112, 82, 42 for PhD, Master, and Bachelor, respectively.
-   c. For each staff, the salary is computed as (workload \* 32 \* 2) \* 0.75, where the workload is the weekly working hours. The working hours cannot exceed 40.
+   a. For each full-time teacher, the salary is computed as (32 \* degreeRate \* 2) \* 0.85, where degreeRate is 112, 82, 42 for PhD, Master, and Bachelor, respectively.  
+   b. For each part-time teacher, the salary is computed as (hoursWorked \* degreeRate \* 2) \* 0.76, where degreeRate is 112, 82, 42 for PhD, Master, and Bachelor, respectively.  
+   c. For each staff, the salary is computed as (workload \* 32 \* 2) \* 0.75, where the workload is the weekly working hours. The working hours cannot exceed 40.  
    d. Implement the method ComputePayRoll() inside Teacher and Staff classes.
 6. Teachers and staff are added/assigned to a department, first by loading/reading from a text file during the first execution of the application. Moreover, new teachers and staff must be added/assigned through the GUI application.
 7. Trying to add a teacher or a staff member to an inexistent department (based on department id) should rise/throw an exception.
